@@ -1,0 +1,22 @@
+
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Data Files (Crucial for Hackathons)
+# We ignore the raw data and artifacts because they are too large for Git.
+# Your README should explain how to run Phase 1 to regenerate these.
+data/raw/
+data/processed/
+data/*.pkl
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
